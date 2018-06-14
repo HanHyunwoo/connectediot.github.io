@@ -1,0 +1,44 @@
+<!-- html:5 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- link:css -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .skyblue {
+      color: skyblue;
+    }
+  </style>
+</head>
+<body>
+  <!-- 선택자 :
+   우선순위는 id가 가장 높다.
+   1) 태그 선택 tag
+   2) class 선택 - .class
+   3) id 선택 - #id; 문서 내에서 하나만 -->
+  <h1>html/css실습</h1>
+  <p style="color: blue">안녕, 파란색</p>
+  <p class="red">안녕, 빨간색</p>
+  <p id="red" class="skyblue">안녕, 하늘색</p>
+  <p class="white red">안녕, 또 빨간색</p>
+  <div class="red right">
+    ml-auto
+  </div>
+  <div class="red left">
+    mr-auto
+  </div>
+  <div class="red center">
+    둘다
+  </div>
+  <div class="blue f-left">
+    왼쪽에 떠있음.
+  </div>
+  <div class="red f-right">
+    오른쪽에 떠있음.
+  </div>
+</body>
+</html>

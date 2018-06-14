@@ -1,0 +1,54 @@
+.red {
+  color: red;
+}
+body {
+  height: 10000px;
+}
+p {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+
+#red {
+  color: red;
+}
+
+div.red {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  color: white;
+  font-size: 5px;
+}
+
+div.blue {
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  color: white;
+  font-size: 5px;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
